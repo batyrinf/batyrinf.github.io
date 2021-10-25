@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-display: swap;
+        font-family: Hacker;
+        src: url('./assets/fonts/HackedKerX.ttf');
+    }
+
+    @font-face {
+        font-display: swap;
+        font-family: Montserrat-Bold;
+        src: url('./assets/fonts/Montserrat-Bold.ttf');
+    }
+
+    @font-face {
+        font-display: swap;
+        font-family: Montserrat-Medium;
+        src: url('./assets/fonts/Montserrat-Medium.ttf');
+    }
+}
